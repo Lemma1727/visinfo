@@ -18,7 +18,7 @@ class ImageGrid {
     this.gridRows = 3;
     this.imageWidth = this.gridWidth / this.gridCols;
     this.imageHeight = this.gridHeight / this.gridRows;
-    this.baseUrl = "http://127.0.0.1:8080/visinfo/images/";
+    this.baseUrl = "http://127.0.0.1:3002/visinfo/images/";
   }
 
   initialize() {
